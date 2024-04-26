@@ -1,0 +1,50 @@
+@import url( https://fonts.google.com/share?selection.family=Bebas%20Neue%7CMontserrat:ital,wght@0,400;0,700;1,400);
+
+html{
+    background-color: rgba(122, 191, 191, .5); 
+}
+body{
+    background-color:#F2F2F2;
+    width:1280px;
+    margin:auto;
+}
+h1{
+    font-size:40px;
+}
+h2{
+    font-size:30px;
+}
+h3{
+    font-size:25px;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.knife{
+    background-color:#EB5428;
+    float:left;
+    zoom:0.7;
+}
+.avatar{
+    background-color: #EB5428;
+}
+nav h2{
+    visibility: hidden;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10px;
+    color:#EB5428;
+}
+nav li img{
+    display:block;
+    width:75px;
+    height:75px;
+}
